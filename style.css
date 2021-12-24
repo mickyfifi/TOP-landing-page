@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+.header, .hero{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header, .hero {
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    flex: 0 0 auto;
+}
+
+.hero {
+    padding-top: 60px;
+    padding-bottom: 100px; 
+}
+
+.hero > * {
+    flex: 1 1 0;
+}
+
+.hero-left > * {
+    margin: 0;
+    padding: 0;
+    margin-right: 24px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 4px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 15px;
+}
+
+.sign-up {
+    padding: 8px 40px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hero-image {
+    height: 300px;
+}
