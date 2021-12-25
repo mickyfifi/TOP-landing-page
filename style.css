@@ -1,3 +1,34 @@
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto/Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto/Roboto-Black.ttf);
+    font-style: bolder;
+    font-weight: 150;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto/Roboto-LightItalic.ttf);
+    font-style: italic;
+    font-weight: 50;
+}
+
+* {
+    font-family: Roboto, Arial, sans-serif;
+}
+
 body {
     margin: 0;
 }
@@ -48,15 +79,16 @@ body > * {
     flex: 1 1 0;
 }
 
-.hero-left > * {
+.hero .left {
     margin: 0;
     padding: 0;
-    margin-right: 24px;
+    margin-right: 32px;
 }
 
 .hero .main {
     font-size: 48px;
-    font-weight: bolder;
+    font-style: bolder;
+    font-weight: 150;
     color: #F9FAF8;
     margin-bottom: 4px;
 }
@@ -123,7 +155,8 @@ body > * {
 .quote-text {
     margin: 0;
     font-size: 36px;
-    font-style: oblique;
+    font-style: italic;
+    font-weight: 50;
 }
 
 .quote-author {
