@@ -14,15 +14,14 @@
 @font-face {
     font-family: Roboto;
     src: url(font/Roboto/Roboto-Black.ttf);
-    font-style: bolder;
-    font-weight: 150;
+    font-weight: 900;
 }
 
 @font-face {
     font-family: Roboto;
     src: url(font/Roboto/Roboto-LightItalic.ttf);
     font-style: italic;
-    font-weight: 50;
+    font-weight: 100;
 }
 
 * {
@@ -88,7 +87,7 @@ body > * {
 .hero .main {
     font-size: 48px;
     font-style: bolder;
-    font-weight: 150;
+    font-weight: 900;
     color: #F9FAF8;
     margin-bottom: 4px;
 }
@@ -156,7 +155,7 @@ body > * {
     margin: 0;
     font-size: 36px;
     font-style: italic;
-    font-weight: 50;
+    font-weight: 100;
 }
 
 .quote-author {
