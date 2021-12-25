@@ -189,11 +189,12 @@ body > * {
 
 .sign-up-panel .sign-up-btn{
     margin: 8px 0;
-    padding: 8px 60px;
+    padding: 8px 46px;
     border-radius: 8px;
     color: white;
     background-color: #3882F6;
     border: 2px solid white;
+    font-size: 14px;
     font-weight: bold;
 }
     
